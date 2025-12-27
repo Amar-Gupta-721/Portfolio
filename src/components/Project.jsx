@@ -1,5 +1,6 @@
 import React from 'react'
 import Ecommerce from '../assets/Projects/Ecommerce.png'
+import CityCare from '../assets/Projects/CityCare.png'
 import Blog_Web_App from '../assets/Projects/Blog_Web_App.png'
 import Sorting_Algorithm_Visualizer from '../assets/Projects/Sorting_Algorithm_Visualizer.png'
 import Todo from '../assets/Projects/Todo.png'
@@ -15,6 +16,40 @@ const Project = () => {
         transition={{duration:0.5}}
         className='my-20 text-center text-4xl'>Projects</motion.h2>
         <div>
+
+        <div 
+            key="" className='mb-8 flex flex-wrap lg:justify-center'>
+                <motion.div
+                whileInView={{opacity:1, x:0}}
+                initial={{opacity:0, x:-100}}
+                transition={{duration:1}}
+                className='mt-2 mb-4 w-full lg:w-1/4 md:pr-5'>
+                    <img className='shadow-md shadow-neutral-100' height={200} width={200} src={CityCare} alt="CityCare" />
+                </motion.div>
+                <motion.div 
+                whileInView={{opacity:1, x:0}}
+                initial={{opacity:0, x:100}}
+                transition={{duration:1}}
+                className="w-full max-w-full lg:w-3/4">
+                <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://city-care-teal.vercel.app/"}>CityCare – Civic Complaint Management System</Link></h6>
+                <p className='mb-4 text-neutral-400'>CityCare is a full-stack MERN application that enables citizens to register and track civic complaints while allowing authorities to manage and resolve issues efficiently. The platform features role-based access (Citizen, Officer), secure JWT & Google OAuth 2.0 authentication, email verification, and a responsive UI built with Tailwind CSS. Designed with RESTful APIs and deployed on cloud platforms, CityCare showcases real-world full-stack development and deployment skills.
+                </p>
+                <div>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://city-care-teal.vercel.app/">Live Demo</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/City-Care">Source Code</Link></span>
+                </div><br />
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind&nbsp;CSS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React.js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Node.js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Express.js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>MongoDB</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>REST&nbsp;APIs</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>JWT</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Google&nbsp;OAuth&nbsp;2.0</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Vercel</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Render</span>
+                </motion.div>
+            </div>
 
         <div 
             key="ShopSmart_Ecommerce_Platform" className='mb-8 flex flex-wrap lg:justify-center'>
@@ -37,15 +72,16 @@ const Project = () => {
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://shop-smart-qs29.onrender.com/">Live Demo</Link></span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/ShopSmart-A-Full-Stack-Ecommerce-Website-MERN-">Source Code</Link></span>
                 </div><br />
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>TailwindCSS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>NodeJS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ExpressJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind&nbsp;CSS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React.js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Node.js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Express.js</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>MongoDB</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReduxToolkit</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Redux&nbsp;Toolkit</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>JWT</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Cloudinary</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>PayPal</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Render</span>
                 </motion.div>
             </div>
 
@@ -70,10 +106,11 @@ const Project = () => {
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://blogapp-mu-puce.vercel.app/">Live Demo</Link></span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Blog_Web_App">Source Code</Link></span>
                 </div><br />
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReduxToolkit</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind&nbsp;CSS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React.js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Redux&nbsp;Toolkit</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Appwrite</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Vercel</span>
                 </motion.div>
                 
             </div>
@@ -98,7 +135,8 @@ const Project = () => {
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Sorting_Visualizer">Source Code</Link></span>
                 </div><br />
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>CSS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React.js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Vercel</span>
                 </motion.div>
             </div>
 
@@ -122,8 +160,9 @@ const Project = () => {
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Todo">Source Code</Link></span>
                 </div><br />
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React.js</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReduxToolkit</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Vercel</span>
                 </motion.div>
             </div>
             
