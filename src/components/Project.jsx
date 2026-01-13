@@ -65,11 +65,11 @@ const Project = () => {
                 initial={{opacity:0, x:100}}
                 transition={{duration:1}}
                 className="w-full max-w-full lg:w-3/4">
-                <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://shop-smart-qs29.onrender.com/"}>ShopSmart Ecommerce Platform</Link></h6>
+                <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://shop-smart-ecommerce-mern.vercel.app/"}>ShopSmart Ecommerce Platform</Link></h6>
                 <p className='mb-4 text-neutral-400'>ShopSmart is a full-featured ecommerce web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Tailwind CSS and ShadCN UI for sleek, responsive design. The project implements Redux Toolkit for state management and JWT for secure authentication and authorization. Cloudinary is used for efficient media storage, and PayPal integration ensures smooth online transactions. With features like product browsing, cart management, and order tracking, ShopSmart offers a seamless user experience across all devices, showcasing my skills in both frontend and backend development.
                 </p>
                 <div>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://shop-smart-qs29.onrender.com/">Live Demo</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://shop-smart-ecommerce-mern.vercel.app/">Live Demo</Link></span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/ShopSmart-A-Full-Stack-Ecommerce-Website-MERN-">Source Code</Link></span>
                 </div><br />
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind&nbsp;CSS</span>
